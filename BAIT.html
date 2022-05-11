@@ -21,10 +21,10 @@
         showTime();
     })
     function border() {
-        var jz="已接种";
+        var jz="已加强接种";
         var bor=document.getElementById('border');
         if("已接种"==jz){
-            bor.setAttribute("src","./images/border.png");
+            bor.setAttribute("src","/zc/resources/jkm/images/border.png");
             /*bor.style.top="-2px";
             bor.style.width="299px";
             bor.style.left="34px";
@@ -33,7 +33,7 @@
             pList[0].style.color="#676767";
             pList[1].style.color="#929191";*/
         }else {
-            bor.setAttribute("src","./images/border.png");
+            bor.setAttribute("src","/zc/resources/jkm/images/border.png");
         }
     }
     //获取系统时间
@@ -68,16 +68,18 @@
 <body class="blue-bg">
 
 <div class="content-box">
-    <div class="now-date" id="div_date">05月01日 </div>
-    <div class="now-time" id="div_timer" style="white-space: pre;">23:11:55</div>
+    <div class="now-date" id="div_date">05月11日 </div>
+    <div class="now-time" id="div_timer" style="white-space: pre;">22:51:22</div>
+    <div style="text-align:center;">
+        <img style="width: 330px;height: 3px;" src="./BAIT_files/分割条.png">
+    </div>
     <div class="sss">
-        <div class="link-btn" style="padding-top: 18px;">
-            <a href="https://e.zufe.edu.cn/zc/zx" class=""><img src="./BAIT_files/an1.png"></a>
+        <div class="link-btn" style="padding-top: 5px;">
+            <a href="https://e.zufe.edu.cn/zc/zx" class=""><img style="width: 60px;" src="./BAIT_files/an3.png"></a>
         </div>
         <div class="top-title">
-            <div id="kongge">&nbsp;</div>
-            <p style="font-size:1.0rem;">姓名：马甲</p>
-            <p style="font-size:13px;">单位：会计学院</p>
+            <p style="font-size:1.0rem;font-weight: bold;">惘闻</p>
+            <p style="font-size:13px;">法学院</p>
         </div>
 
     </div>
@@ -85,21 +87,21 @@
     
         <div class="qr">
             
-                <div id="output" style="width: 170px;margin: 0px auto;margin-bottom: 20px;margin-top: 5px;position: relative">
+                <div id="output" style="width: 170px;margin: 0px auto;margin-bottom: 10px;margin-top: 5px;position: relative">
                     <img id="border" src="./BAIT_files/border.png">
-               </div>
-                <div style="color: blue; font-size: 25px;margin-bottom: 10px">
+                <canvas width="170" height="170"></canvas></div>
+                <p style="color: black;margin-bottom: 20px">疫苗接种情况  
                     
-                    
-                        您今天可以返校学习
-                    
-                </div>
-                <p style="color: black;">新冠疫苗接种情况
-                    
-                        <span style="color: #10ad65;">已接种</span>
+                        <span style="font-size:1.0rem;color: #4bd47a;font-weight: bold;">已加强接种</span>
                     
                     
                 </p>
+                <div>
+                    
+                    
+                        <img style="width: 70%;" src="./BAIT_files/xstx.png">
+                    
+                </div>
                 
             
             
@@ -109,25 +111,27 @@
    
     
         <div style="width: 100%;text-align: center;padding: 0px 0px 5px 0px;position: relative;margin: auto;">
-            <div style="width: 100%;margin: 0px auto;position: relative">
-                <div style="color: black;width: 100%;padding-top: 10px;">
-                    核酸检测报告 <a style="color: #10ad65">阴性</a>
-                    <a style="color: gray;font-size: 14px">报告时间:2022-05-11 00:01:29</a>
+            <div style="width: 330px;margin: 0px auto;position: relative">
+                <div style="color: black;padding-top: 10px;">
+                    <img style="width: 330px;" src="./BAIT_files/cdlhsbg.png">
+                    <div style="position: absolute;margin-left: 180px;top: 19px;font-size: 1.1rem;font-weight:bold;color: white">05-11 06:04:34</div>
                 </div>
             </div>
         </div>
     
     
         
+    <div style="text-align:center;">
+        <img style="width: 330px;height: 3px;" src="./BAIT_files/分割条.png">
+    </div>
     <div style="text-align:center;padding-top: 20px">
-        <a href="https://e.zufe.edu.cn/infoplus/form/JSXNYQSB/start?back=1&amp;x_posted=true">通行码申请</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://e.zufe.edu.cn/infoplus/form/FXSQ/start?back=1&amp;x_posted=true">学生返校申请</a>
+        <a href="https://e.zufe.edu.cn/infoplus/form/JSXNYQSB/start?back=1&amp;x_posted=true"><img style="width:90px;" src="./BAIT_files/txmsq.png"></a> 
+        <a href="https://e.zufe.edu.cn/infoplus/form/FXSQ/start?back=1&amp;x_posted=true"><img style="width:100px;" src="./BAIT_files/xsfxsq.png"></a> 
+        <a target="_blank" href="https://xc.caict.ac.cn/#/login"><img style="width:90px;" src="./BAIT_files/ckxcm.png"></a>
         
     </div>
     
-    <div style="margin: auto;width: 134px">
-        <a target="_blank" href="https://xc.caict.ac.cn/#/login"> 通信大数据行程卡</a>
-    </div>
+    
 </div>
 
 </body></html>
